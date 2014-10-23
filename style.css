@@ -1,0 +1,107 @@
+body {
+	  /*background-color: #221110; */
+	  background-color: black;
+	  font-size: 11px; font-weight: normal; 
+	  text-decoration: none;
+	  line-height: 1.5em;
+	}
+	a img { 
+		border: 0px solid transparent;
+	}
+	a, a:link, a:visited, a:active, a:hover { 
+		color: #cdcdcd; text-decoration: underline;
+	}
+	h1 {
+	    font-family: Arial, Helvetica Neue, Verdana, Geneva, sans-serif;
+		width: 100%; letter-spacing: 0.1em;
+		margin-bottom: 1em; font-size: 1.65em;
+	}
+	canvas { 
+		display: block; 
+		outline: 0px; 
+		margin-bottom: 1.5em; 
+	}
+	#content { 
+		margin: 50px auto 0px auto; 
+		width: 800px; min-width: 300px; overflow: auto;
+		
+	}
+
+	#patron {
+		text-align: center;
+		top: -817px;
+		position: relative;
+	}
+
+	#bee {
+		text-align: center;
+		position: relative;
+		top: -833px;
+		padding-top: 11px;
+
+	}
+
+	#bee h2 {
+		color: white;
+		font-family: times;
+		text-align: center;
+	}
+
+/* share */
+
+ul {
+	overflow: auto;
+
+}
+
+ul li {
+	list-style-type: none;
+	float: left;
+
+}
+
+i.fa.fa-instagram {
+	
+	color:white;
+	top: 4%;
+	left: 74%;
+	z-index: 3;
+	position: absolute;
+	display: inline-block;
+	font-size: 40px;
+	text-align: center;
+	/*display: inline;*/
+	padding: 20px;
+	
+
+}
+
+ul li a i.fa.fa-facebook {
+	
+	color:white;
+	top: 4%;
+	left: 78%;
+	z-index: 3;
+	position: absolute;
+	display: inline-block;
+	font-size: 40px;
+	text-align: center;
+	/*display: inline;*/
+	padding: 20px;
+	
+
+}
+
+i.fa.fa-twitter {
+	color:white;
+	top: 4%;
+	left: 81%;
+	z-index: 3;
+	position: absolute;
+	display: inline-block;
+	font-size: 40px;
+	text-align: center;
+	/*display: inline;*/
+	padding: 20px;
+	
+}

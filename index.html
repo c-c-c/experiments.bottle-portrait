@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<title>Patron: Film Noir</title>
+		<link rel="icon"  type="image/x-icon" href="imgs/bee-favicon.jpg"/>
+		<meta name="Generator" content="Processing" />
+		
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+		<!-- processingJS -->
+		<script src="processing.js" type="text/javascript"></script>
+
+		<!-- font awesome -->
+		<link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
+		
+		<script type="text/javascript">
+		// convenience function to get the id attribute of generated sketch html element
+			function getProcessingSketchId () { 
+				return 'ProceduralInk'; 
+			}
+		</script>
+
+		<!-- jQuery --> 
+		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		
+
+		<script type="text/javascript" src="doubletap.js"></script>
+
+	</head>
+	<body>
+		<!-- share -->
+		<div class = "share-buttons">
+			<ul>
+				<li><a href = "http://instagram.com/patron" target="_blank"><i class="fa fa-instagram"></i></a></li>
+				<li><a href = "https://www.facebook.com/patrontequila" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        		<li><a href = "https://twitter.com/Patron" target="_blank"><i class="fa fa-twitter"></i></a></li> 
+        	</ul>
+
+		</div> <!-- .share-buttons -->
+
+		<!-- animation -->
+		<div id="content">
+				<canvas id="ProceduralInk" data-processing-sources="Procedural_Ink/Procedural_Ink.pde" 
+						width="800" height="800"></canvas>
+				
+		</div> <!-- #content -->
+
+		<!-- outline overlay -->
+		<div id="patron" style="pointer-events: none;">
+			<img src="imgs/patron_outline_black_blur.png" alt="Patron Outline" width="900px" height="900px">
+		</div> <!-- #patron -->
+
+		<!-- bee logo -->
+		<!-- <div id="bee">
+			<img src="imgs/bee.jpg" alt="Patron Bee" width="600px" height="190px">
+		</div> 
+
+
+	</body>
+</html>
