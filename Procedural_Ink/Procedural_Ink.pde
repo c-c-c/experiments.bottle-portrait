@@ -1,6 +1,3 @@
-//Procedural portraits
-//Ale González, 2013 
-
 
 var
   WIDTH   = 800,
@@ -40,7 +37,7 @@ void setup() {
     particles = new ArrayList<Particle>();
     
     //Base picture
-    base= loadImage("patron.jpg");
+    base= loadImage("austin.jpg");
 
     
     
